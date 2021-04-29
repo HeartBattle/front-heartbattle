@@ -57,11 +57,14 @@ function ProductValues(props) {
                 alt="suitcase"
               />
               <Typography variant="h6" className={classes.title}>
-                The best luxury hotels
+                Récolte de ressource
               </Typography>
               <Typography variant="h5">
-                {'From the latest trendy boutique hotel to the iconic palace with XXL pool'}
-                {', go for a mini-vacation just a few subway stops away from your home.'}
+                <center>
+                  Approprie toi les diamants et les emeraudes que tu trouves sur la carte.
+                <br />
+                Récupère le contenu du coffre central t'apportant richesse.
+              </center>
               </Typography>
             </div>
           </Grid>
@@ -73,11 +76,14 @@ function ProductValues(props) {
                 alt="graph"
               />
               <Typography variant="h6" className={classes.title}>
-                New experiences
+                Préparation
               </Typography>
               <Typography variant="h5">
-                {'Privatize a pool, take a Japanese bath or wake up in 900m2 of garden… '}
-                {'your Sundays will not be alike.'}
+                <center>
+                  Débloques toutes les améliorations de ta base.
+                  <br/>
+                  Achète bouclier, arc et épée ainsi que l'armure la plus brillante du shop.
+                </center>
               </Typography>
             </div>
           </Grid>
@@ -89,11 +95,14 @@ function ProductValues(props) {
                 alt="clock"
               />
               <Typography variant="h6" className={classes.title}>
-                Exclusive rates
+                Assaut
               </Typography>
               <Typography variant="h5">
-                {'By registering, you will access specially negotiated rates '}
-                {'that you will not find anywhere else.'}
+                <center>
+                  Tues tout les adversaires qui s'opposeront à toi.
+                  <br/>
+                  Explose les murs de leur forteresse grâce à ta TNT et détruis leur coeur à la force de ton épée.
+                </center>
               </Typography>
             </div>
           </Grid>

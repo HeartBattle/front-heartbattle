@@ -62,7 +62,7 @@ function ProductHowItWorks(props) {
           alt="curvy lines"
         />
         <Typography variant="h4" marked="center" className={classes.title} component="h2">
-          How it works
+          Comment rejoindre la bataille
         </Typography>
         <div>
           <Grid container spacing={5}>
@@ -88,7 +88,7 @@ function ProductHowItWorks(props) {
                   className={classes.image}
                 />
                 <Typography variant="h5" align="center">
-                  Fais <i>/game</i> dans le jeu et choisis ton equipe!
+                  Rejoins une équipe à l'aide de la commande <i>/game</i> en jeu !
                 </Typography>
               </div>
             </Grid>
@@ -101,7 +101,7 @@ function ProductHowItWorks(props) {
                   className={classes.image}
                 />
                 <Typography variant="h5" align="center">
-                  Cherche les ressource et attaques tes adversaires.
+                  Fais nous rêver avec ton skill légendaire
                 </Typography>
               </div>
             </Grid>
