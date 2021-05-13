@@ -48,9 +48,10 @@ function AppAppBar(props) {
             underline="none"
             color="inherit"
             className={classes.title}
+            style={{display: 'flex'}}
             href="/"
-          >
-            {'Heart Battle'}
+          ><img src="/static/heartbattle/logo.png" alt="logo" style={{width: '150px'}}>
+          </img>
           </Link>
           <div className={classes.right}>
             {/* <Link

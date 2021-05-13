@@ -7,7 +7,7 @@ import ProductHeroLayout from './ProductHeroLayout';
 import Markdown from '../../modules/components/Markdown';
 
 const backgroundImage =
-  'https://images.unsplash.com/photo-1534854638093-bada1813ca19?auto=format&fit=crop&w=1400&q=80';
+  '/static/heartbattle/wallpaper.jpg';
 
 const styles = (theme) => ({
   background: {
@@ -31,21 +31,7 @@ const styles = (theme) => ({
 });
 
 const markdown = `
-<center>Bienvenue sur Heart Battle ! Un évènement Minecraft riche en actions !
-
-Forme une équipe et affronte jusqu’à 20 joueurs sur la carte “Four Faces”.
-
-Pars à l’assaut des générateurs de minerais, et contrôle les le plus longtemps possible !
-
-Améliore ta forteresse, ton armure, et deviens plus puissant !
-
-Équipe toi de ta plus grosse armure pour prendre possession du coffre central !
-
-Tues tes ennemis et gagne la ressource ultime !
-
-Détruire le cœur de tes adversaires t’apportera la richesse, et les achever t’apportera la gloire !
-
-Attention à ne pas rester trop longtemps dans ta base,  la carte va se réduire et le combat final sera inévitable.</center>`
+<center>Bienvenue sur Heart Battle ! <br/> Un évènement Minecraft riche en actions !</center>`
 
 function ProductHero(props) {
   const { classes } = props;
@@ -57,7 +43,7 @@ function ProductHero(props) {
       <Typography color="inherit" align="center" variant="h2" marked="center">
         Heart Battle
       </Typography>
-      <div style={{ padding: '20px 0 0 0' }}>
+      <div style={{ padding: '20px 0 0 0', fontSize: "1.2em" }}>
         <Markdown>{markdown}</Markdown>
       </div>
       <Button
@@ -67,6 +53,7 @@ function ProductHero(props) {
         className={classes.button}
         component="a"
         onClick={() => {navigator.clipboard.writeText('amistupid.fr')}}
+        style={{margin: "150px 0 0 0"}}
       >
         Copie l'adresse du server!
       </Button>

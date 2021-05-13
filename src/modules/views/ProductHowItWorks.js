@@ -75,7 +75,7 @@ function ProductHowItWorks(props) {
                   className={classes.image}
                 />
                 <Typography variant="h5" align="center">
-                  Connecte toi au serveur.
+                  Connecte toi au serveur amistupid.fr
                 </Typography>
               </div>
             </Grid>
@@ -101,7 +101,7 @@ function ProductHowItWorks(props) {
                   className={classes.image}
                 />
                 <Typography variant="h5" align="center">
-                  Fais nous rêver avec ton skill légendaire
+                  Utilise <i>/game ready</i> et fais nous rêver avec ton skill légendaire
                 </Typography>
               </div>
             </Grid>

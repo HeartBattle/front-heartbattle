@@ -33,7 +33,7 @@ function ProductSmokingHero(props) {
 
   return (
     <Container className={classes.root} component="section">
-      <Button className={classes.button}>
+      <Button className={classes.button} href="https://discord.gg/u6sP5z3n" target="_blank">
         <Typography variant="h4" component="span">
           Tu as des questions? Besoin d'aide?
         </Typography>
