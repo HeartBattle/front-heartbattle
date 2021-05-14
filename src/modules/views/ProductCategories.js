@@ -35,16 +35,20 @@ function ProductCategories(props) {
       <Typography variant="h4" marked="center" align="center" component="h2">
         Bienvenue dans notre jeu !
       </Typography>
-      <div className={classes.divWrapper} style={{flexDirection: 'column'}}>
+      <div className={classes.divWrapper} style={{ flexDirection: 'column' }}>
         <div>
-        <OndemandVideoIcon style={{fontSize: 400}}/>
-          </div>
-          <div>
-        Enregistrement de la video en cours...
+          <OndemandVideoIcon style={{ fontSize: 400 }} />
+        </div>
+        <div>
+          Enregistrement de la video en cours...
 
           </div>
         {/* <YouTube videoId="2g811Eo7K8U" opts={opts} /> */}
       </div>
+
+      <Typography variant="h4" marked="center" align="center" component="h2" style={{fontSize: "25px", margin: "40px 0 20px 0"}}>
+        Les règles
+      </Typography>
       <div className={classes.divWrapper}>
 
         <Typography variant="h5">
@@ -71,7 +75,7 @@ Au centre de la carte, il y a un coffre qui fait apparaître des ressources plus
 
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: "0 0 25px 0;" }}>
 
-          <img
+            <img
               src="/static/heartbattle/Diamond.png"
               alt="suitcase"
               className={classes.image}
@@ -113,7 +117,7 @@ En plus de défendre votre base, vous serez en capaciter d'acheter des TNT, capa
 
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: "0 0 25px 0;" }}>
 
-          <img
+            <img
               src="/static/heartbattle/arbre.png"
               alt="suitcase"
               className={classes.image}
@@ -155,9 +159,9 @@ Une fois mort, un joueur sera réanimé à condition que son coeur ne soit pas m
 
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: "0 0 25px 0;" }}>
 
-          <img
+            <img
               src="/static/heartbattle/mort-subite.png"
-              style={{width: "500px"}}
+              style={{ width: "500px" }}
               alt="suitcase"
               className={classes.image}
             />
